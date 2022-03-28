@@ -14,7 +14,6 @@ const useStyles = makeStyles({
     margin: '5% 25%',
   },
 });
-
 export default () => {
   const classes = useStyles();
   return (
@@ -45,8 +44,8 @@ export default () => {
         </List>
 
         <Typography variant="body1">
-          Remember to refer to our <a href="https://react.eogresources.com/assessing">How We Assess Submissions</a>{' '}
-          guidelines, as well as the <a href="https://react.eogresources.com/api">GraphQL API Documentation</a>.
+          Remember to refer to our <a href="https://react-assessment.herokuapp.com/">How We Assess Submissions</a>{' '}
+          guidelines, as well as the <a href="https://react-assessment.herokuapp.com/graphql">GraphQL API Documentation</a>.
         </Typography>
       </CardContent>
     </Card>
